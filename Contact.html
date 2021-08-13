@@ -1,0 +1,67 @@
+<!doctype html>
+<html> 
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style>* {box-sizing: border-box;}body {   margin: 0;  font-family: Arial, Helvetica, sans-serif;}.header {  overflow: hidden;  background-color: rgba(165, 166, 124);  padding: 15px 10px;}.header a {  float: left;  color: white;  text-align: center;  padding: 15px;  text-decoration: none;  font-size: 15px;   line-height: 5px;  border-radius: 4px;}.header a.logo {  font-size: 25px;  font-weight: bold;  color:white}.header a:hover {  background-color: #ddd;  color: black;}.header a.active {  background-color: dodgerblue;  color: white;}.header-right {  float: right;}.right {  background-color: rgb(195, 227, 16);  float: left;  width: 100%;  padding: 5px 10px;}@media screen and (max-width: 500px) {  .header a {    float: none;    display: block;    text-align: left;  }    .header-right {    float: none;  }}/* Footer */.footer {   /*position: fixed;*/   overflow: hidden;   left: 0;   bottom: 0;   width: 100%;   background-color: rgba(165, 166, 124);   color: white;   text-align: center; font-size:10px;  }
+  .BlockDisplay {
+  background-color: rgba(184, 209, 245);
+  float: left;
+  width: 100%;
+  padding: 5px 10px;
+}
+.BlockFeedback {
+  background-color: rgba(145, 20, 199);
+  color: white;
+  font-size:12px;
+  text-align: center;
+  padding: 10px 10px;
+}
+  </style> 
+  <style>* {  box-sizing: border-box;}body {  font-family: Arial, Helvetica, sans-serif;}/* Float four columns side by side */.column {  float: left;  width: 25%;  padding: 0 10px;}/* Remove extra left and right margins, due to padding */.row {margin: 0 -5px;}/* Clear floats after the columns */.row:after {  content: "";  display: table;  clear: both;}/* Responsive columns */@media screen and (max-width: 600px) {  .column {    width: 100%;    display: block;    margin-bottom: 20px;  }}/* Style the counter cards */.card {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);  padding: 16px;  text-align: center;  background-color: rgba(184, 209, 245);}</style> 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+  <style>.mySlides {display:none;}</style> 
+ </head> 
+ <body> 
+  <div class="header"> <a href="#default" class="logo">Webinar@Info</a> 
+   <div class="header-right"> <a href="http://localhost:8080/Webinar/">Home</a> <a class="active" href="#contact">Contact</a> <a href="http://localhost:8080/Webinar/About.html">About</a> 
+   </div> 
+  </div> 
+  <div class="right"> 
+   <center> 
+    <h2 style="font-size: 20px; color:black;"><b>Learn &amp; Grow your skills here and help others to grow as well in shapping their careers into a new height</b></h2> 
+    <p style="font-size: 12px; color:black;">This is a one stop place to look for free Webninars provdied by various IT Companies and Industry specialists to show case their products for tools and Technologies to the IT enthusiasts.</p> 
+   </center> 
+  </div> 
+   <div class="BlockDisplay">
+   <div>
+   <h3>Contact us</h3>
+   <h3 style="font-size: 15px;">If you have any queries ,feedback or suggestion ,please share it by sending email to below email id. We will show the Webinar info shared with us to our Website so others can take the benefit out of it.</h3>
+   <div>
+   <span ><b style="font-size: 15px;">Email us at :</b> samali1929@gmail.com</span>
+   </div>
+   </div>
+ </div> 
+  <div>
+   <h2 class="w3-center">Trending Technologies &amp; Tools 2021...</h2> 
+   <div class="w3-content w3-section" style="max-width:600px"> 
+    <img class="mySlides" src="1_C42t8eiHFnAhkhxjmSYVkQ.png" style="width:100%"> 
+    <img class="mySlides" src="top-10-cloud-platforms.png" style="width:100%"> 
+    <img class="mySlides" src="Top 7 Agile MethodologiesArtboard 1.jpg" style="width:100%"> 
+   </div> 
+   <script>var myIndex = 0;carousel();function carousel() {  var i;  var x = document.getElementsByClassName("mySlides");  for (i = 0; i < x.length; i++) {    x[i].style.display = "none";    }  myIndex++;  if (myIndex > x.length) {myIndex = 1}      x[myIndex-1].style.display = "block";    setTimeout(carousel, 2000);   }//Change image every 2 seconds</script> 
+  </div> 
+  <footer>
+   <div class="BlockFeedback">
+   <div>
+  <span>If you have any info regarding any Webinars or feedback, please do share it with us to below email id and help others to learn & grow ! Your contribution will be highly appreciated.</span>
+   </div>
+   <div>
+   <span><b>Email us at :</b> samali1929@gmail.com</span>
+   </div>
+   </div> 
+   <div class="footer"> 
+    <p style="text-align:center; color:white"><b>Copyright and copy 2021 Webinar@Info. All Rights Reserved.</b></p> 
+   </div> 
+  </footer> 
+ </body>
+</html>
