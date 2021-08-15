@@ -16,7 +16,54 @@
   text-align: center;
   padding: 10px 10px;
 }
-  </style> 
+.Roundcorners {
+  background-color: rgba(145, 20, 199);
+  border-radius: 5px 50px 50px 5px;
+  width: 350px;
+  padding: 5px 5px; 
+  color:white;  
+}
+.Roundcornersbottom {
+  background-color: rgba(145, 20, 199);
+  border-radius: 5px 50px 50px 5px;
+  width: 650px;
+  padding: 2px 2px; 
+  color:white; 
+}
+</style> 
+    <style>
+      .button {
+        background-color: #1c87c9;
+        -webkit-border-radius: 30px;
+        border-radius: 30px;
+        border: none;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 12px;
+        padding: 6px 6px;
+        text-align: center;
+        text-decoration: none;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+        50% {
+          background-color: #49e819;
+          box-shadow: 0 0 20px #49e819;
+        }
+        100% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+      }
+      .button {
+        animation: glowing 1300ms infinite;
+      }
+    </style>
   <style>* {  box-sizing: border-box;}body {  font-family: Arial, Helvetica, sans-serif;}/* Float four columns side by side */.column {  float: left;  width: 25%;  padding: 0 10px;}/* Remove extra left and right margins, due to padding */.row {margin: 0 -5px;}/* Clear floats after the columns */.row:after {  content: "";  display: table;  clear: both;}/* Responsive columns */@media screen and (max-width: 600px) {  .column {    width: 100%;    display: block;    margin-bottom: 20px;  }}/* Style the counter cards */.card {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);  padding: 16px;  text-align: center;  background-color: rgba(184, 209, 245);}</style> 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
   <style>.mySlides {display:none;}</style> 
@@ -31,31 +78,33 @@
     <h2 style="font-size: 20px; color:black;"><b>Learn &amp; Grow your skills here and help others to grow as well in shapping their careers into a new height</b></h2> 
     <p style="font-size: 12px; color:black;">This is a one stop place to look for free Webninars provdied by various IT Companies and Industry specialists to show case their products for tools and Technologies to the IT enthusiasts.</p> 
    </center> 
-  </div> 
+  </div>
   <div style="padding-left:10px"> 
-   <h3 style="color:rgb(7,75,173);"><b>List of upcoming Webinars : </b></h3> 
+   <div class="Roundcorners">
+ <h3><b>List of upcoming Webinars : </b></h3> 
+ </div>
    <div class="row"> 
     <div class="column"> 
      <div class="card"> 
-      <h3 id="StartRecordQA" style="font-size: 25px; color:rgb(117, 59, 235);"><b>QA Automation Tools</b></h3> <span style="font-size: 14px;">1.</span><a style="font-size: 14px;" href="https://www.bigmarker.com/techwell-corporation/How-High-Growth-Companies-Test-Release-in-2021?utm_bmcr_source=perfectoWEB" target="_blank"><b>How High-Growth Companies Test &amp; Release in 2021</b></a> 
-      <p style="font-size: 12px;">An online webinar scheduled for August 18, 2021 by TechWell Corporation. <b>About :</b>Leading companies are hurrying new features and updates into their products — WITHOUT sacrificing quality — by taking advantage of innovations in web &amp; mobile test automation.</p><span style="font-size: 14px;">2.</span><a style="font-size: 14px;" href="https://www.perfecto.io/resources/events/webinar-good-testing-expert-panel-na-reg" target="_blank"><b>What Is Good Testing in 2021?</b></a> 
-      <p style="font-size: 12px;">>An online webinar scheduled for August 25, 2021 by Perfecto. <b>About :</b>Join this LIVE panel with QA industry oracles Michael Bolton, Eran Kinsbruner, and James Bach as they discuss the current state of testing and automation.</p><span style="font-size: 14px;">3.</span><a style="font-size: 14px;" href="https://www.katalon.com/webinars/" target="_blank"><b>Testing in DevOps – Meeting The Need for Speed</b></a> 
+      <h3 id="StartRecordQA" style="font-size: 25px; color:rgb(117, 59, 235);"><b>QA Automation Tools</b></h3> <span style="font-size: 14px;">1.</span><a style="font-size: 14px;" href="https://www.bigmarker.com/techwell-corporation/How-High-Growth-Companies-Test-Release-in-2021?utm_bmcr_source=perfectoWEB" target="_blank"><b>How High-Growth Companies Test &amp; Release in 2021</b></a><a class="button" href="https://www.bigmarker.com/techwell-corporation/How-High-Growth-Companies-Test-Release-in-2021?utm_bmcr_source=perfectoWEB" target="_blank">Register now!</a>
+      <p style="font-size: 12px;">An online webinar scheduled for August 18, 2021 by TechWell Corporation. <b>About :</b>Leading companies are hurrying new features and updates into their products — WITHOUT sacrificing quality — by taking advantage of innovations in web &amp; mobile test automation.</p><span style="font-size: 14px;">2.</span><a style="font-size: 14px;" href="https://www.perfecto.io/resources/events/webinar-good-testing-expert-panel-na-reg" target="_blank"><b>What Is Good Testing in 2021? </b></a><a class="button" href="https://www.perfecto.io/resources/events/webinar-good-testing-expert-panel-na-reg" target="_blank">Register now!</a>
+      <p style="font-size: 12px;">>An online webinar scheduled for August 25, 2021 by Perfecto. <b>About :</b>Join this LIVE panel with QA industry oracles Michael Bolton, Eran Kinsbruner, and James Bach as they discuss the current state of testing and automation.</p><span style="font-size: 14px;">3.</span><a style="font-size: 14px;" href="https://www.katalon.com/webinars/" target="_blank"><b>Testing in DevOps – Meeting The Need for Speed </b></a><a class="button" href="https://www.katalon.com/webinars/" target="_blank">Register now!</a>
       <p style="font-size: 12px;">>An online event scheduled for August 18, 2021 by Katalon.<b>About :</b>In a fast-moving culture like DevOps, testing is like living in the fast lane, would you agree?</p> 
      </div> 
     </div> 
     <div class="column"> 
      <div class="card"> 
-      <h3 style="font-size: 25px; color:rgb(117, 59, 235);"><b>Trending Technologies</b></h3> <span style="font-size: 14px;">1.</span><a style="font-size: 14px;" href="https://apexdevsummit.com/?c1=GAW_SE_NW&amp;source=XRP_APEX&amp;cr2=search__-__nw__-__apex_--apex_2021__-__brd&amp;kw=best_developer_conference&amp;cr5=537351100263&amp;cr7=c&amp;utm_source=GAW_SE_NW_XRP_APEX&amp;utm_medium=cpc&amp;utm_campaign=search__-__nw__-__apex_--apex_2021__-__brd&amp;utm_term=best_developer_conference&amp;gclid=EAIaIQobChMIwL-_xeem8gIV6R-tBh0aYQduEAAYASAAEgJYGvD_BwE#rsvp" target="_blank"><b>Apex XRPL Developer Summit in 2021</b></a> 
-      <p style="font-size: 12px;">An online / in person webinar scheduled for September 29–30, 2021 by Apex. <b>About :</b>It is the annual event where developers, contributors and thought leaders come together to learn, build, share, network and celebrate all things XRP Ledger.</p><span style="font-size: 14px;">2.</span><a style="font-size: 14px;" href="https://dzone.tradepub.com/c/pubRD.mpl?secure=1&amp;sr=pp&amp;_t=pp:&amp;qf=w_defa1476&amp;ch=dzwebina" target="_blank"><b>Looking beyond SQL and NoSQL, what will data access look like?</b></a> 
-      <p style="font-size: 12px;">An online webinar scheduled for August 17th @ 1pm ET | 10am PT by FairCom. <b>About :</b>SQL is still how most applications interact with databases, and of course, NoSQL not only disrupted the industry, it fundamentally changed modern application development. However, NoSQL isn’t the be-all end-all of databases. In this webinar, we’re going to introduce FairCom DB and discuss new, emerging and oft-forgotten approaches to data access, from REST/RPC over HTTP for direct front-end access to record IO and navigational APIs for maximum performance in the back end.</p><span style="font-size: 14px;">3.</span><a style="font-size: 14px;" href="https://developer.oracle.com/developer-live/simplifying-modern-app-dev/?source=:ow:de:te::::DevOHomePageEvents&amp;intcmp=:ow:de:te::::DevOHomePageEvents" target="_blank"><b>Modern App Dev with Oracle REST Data Services</b></a> 
+      <h3 style="font-size: 25px; color:rgb(117, 59, 235);"><b>Trending Technologies</b></h3> <span style="font-size: 14px;">1.</span><a style="font-size: 14px;" href="https://apexdevsummit.com/?c1=GAW_SE_NW&amp;source=XRP_APEX&amp;cr2=search__-__nw__-__apex_--apex_2021__-__brd&amp;kw=best_developer_conference&amp;cr5=537351100263&amp;cr7=c&amp;utm_source=GAW_SE_NW_XRP_APEX&amp;utm_medium=cpc&amp;utm_campaign=search__-__nw__-__apex_--apex_2021__-__brd&amp;utm_term=best_developer_conference&amp;gclid=EAIaIQobChMIwL-_xeem8gIV6R-tBh0aYQduEAAYASAAEgJYGvD_BwE#rsvp" target="_blank"><b>Apex XRPL Developer Summit in 2021</b></a><a class="button" href="https://apexdevsummit.com/?c1=GAW_SE_NW&amp;source=XRP_APEX&amp;cr2=search__-__nw__-__apex_--apex_2021__-__brd&amp;kw=best_developer_conference&amp;cr5=537351100263&amp;cr7=c&amp;utm_source=GAW_SE_NW_XRP_APEX&amp;utm_medium=cpc&amp;utm_campaign=search__-__nw__-__apex_--apex_2021__-__brd&amp;utm_term=best_developer_conference&amp;gclid=EAIaIQobChMIwL-_xeem8gIV6R-tBh0aYQduEAAYASAAEgJYGvD_BwE#rsvp" target="_blank">Register now!</a>
+      <p style="font-size: 12px;">An online / in person webinar scheduled for September 29–30, 2021 by Apex. <b>About :</b>It is the annual event where developers, contributors and thought leaders come together to learn, build, share, network and celebrate all things XRP Ledger.</p><span style="font-size: 14px;">2.</span><a style="font-size: 14px;" href="https://dzone.tradepub.com/c/pubRD.mpl?secure=1&amp;sr=pp&amp;_t=pp:&amp;qf=w_defa1476&amp;ch=dzwebina" target="_blank"><b>Looking beyond SQL and NoSQL, what will data access look like?</b></a><a class="button" href="https://dzone.tradepub.com/c/pubRD.mpl?secure=1&amp;sr=pp&amp;_t=pp:&amp;qf=w_defa1476&amp;ch=dzwebina" target="_blank">Register now!</a>
+      <p style="font-size: 12px;">An online webinar scheduled for August 17th @ 1pm ET | 10am PT by FairCom. <b>About :</b>SQL is still how most applications interact with databases, and of course, NoSQL not only disrupted the industry, it fundamentally changed modern application development. However, NoSQL isn’t the be-all end-all of databases. In this webinar, we’re going to introduce FairCom DB and discuss new, emerging and oft-forgotten approaches to data access, from REST/RPC over HTTP for direct front-end access to record IO and navigational APIs for maximum performance in the back end.</p><span style="font-size: 14px;">3.</span><a style="font-size: 14px;" href="https://developer.oracle.com/developer-live/simplifying-modern-app-dev/?source=:ow:de:te::::DevOHomePageEvents&amp;intcmp=:ow:de:te::::DevOHomePageEvents" target="_blank"><b>Modern App Dev with Oracle REST Data Services</b></a><a class="button" href="https://developer.oracle.com/developer-live/simplifying-modern-app-dev/?source=:ow:de:te::::DevOHomePageEvents&amp;intcmp=:ow:de:te::::DevOHomePageEvents" target="_blank">Register now!</a>
       <p style="font-size: 12px;">An online event scheduled for August 18, 20219 a.m. PT | 12 p.m. ET by Oracle.<b>About :</b>Oracle REST Data Services (ORDS) bridges HTTPS and your Oracle Database. A mid-tier Java application, ORDS provides a Database Management REST API, SQL Developer Web, a PL/SQL Gateway, SODA for REST, and the ability to publish RESTful Web Services for interacting with the data and stored procedures in your Oracle Database.</p> 
      </div> 
     </div> 
     <div class="column"> 
      <div class="card"> 
-      <h3 style="font-size: 25px; color:rgb(117, 59, 235);"><b>Cloud</b></h3> <span style="font-size: 14px;">1.</span><a style="font-size: 14px;" href="https://pages.awscloud.com/anz-developer-webinar-five-design-patterns.html" target="_blank"><b>Developer Webinar Series: Five design patterns to build more resilient applications</b></a> 
-      <p style="font-size: 12px;">An online webinar scheduled for Tuesday, 24 Aug 202112:00 PM – 1:00 PM AEST by AWS.<b>About :</b>To deal with uncertainty, you have to design your software to be resilient. In this webinar, we review the most useful patterns for building resilient applications such as graceful degradation, timeouts, exponential backoff, and circuit breakers that you can apply to your software development projects.</p><span style="font-size: 14px;">2.</span><a style="font-size: 14px;" href="https://mktoevents.com/Microsoft+Event/288396/157-GQE-382" target="_blank"><b>Cloud Adoption Framework Workshop to Start Your Cloud Journey</b></a> 
-      <p style="font-size: 12px;">An online webinar scheduled for 12/8/2021, 09:00 am IST by Microsoft Azure. <b>About :</b>Moving to the cloud is a confusing and detailed process—but it doesn’t have to be. When you start planning your cloud journey, it is critical to build a strong cloud adoption plan that spans people, processes, operations, management and governance. Learn how your organization can benefit from the Microsoft Cloud adoption Framework (CAF) as you embark on your cloud adoption journey.</p><span style="font-size: 14px;">3.</span><a style="font-size: 14px;" href="https://cloud.withgoogle.com/next/?utm_source=cgc-site&amp;utm_medium=et&amp;_ga=2.161933116.1646486989.1628613673-1547767635.1627911960" target="_blank"><b>Google Cloud Next ’21</b></a> 
+      <h3 style="font-size: 25px; color:rgb(117, 59, 235);"><b>Cloud</b></h3> <span style="font-size: 14px;">1.</span><a style="font-size: 14px;" href="https://pages.awscloud.com/anz-developer-webinar-five-design-patterns.html" target="_blank"><b>Developer Webinar Series: Five design patterns to build more resilient applications</b></a><a class="button" href="https://pages.awscloud.com/anz-developer-webinar-five-design-patterns.html" target="_blank">Register now!</a>
+      <p style="font-size: 12px;">An online webinar scheduled for Tuesday, 24 Aug 202112:00 PM – 1:00 PM AEST by AWS.<b>About :</b>To deal with uncertainty, you have to design your software to be resilient. In this webinar, we review the most useful patterns for building resilient applications such as graceful degradation, timeouts, exponential backoff, and circuit breakers that you can apply to your software development projects.</p><span style="font-size: 14px;">2.</span><a style="font-size: 14px;" href="https://mktoevents.com/Microsoft+Event/288396/157-GQE-382" target="_blank"><b>Cloud Adoption Framework Workshop to Start Your Cloud Journey</b></a><a class="button" href="https://mktoevents.com/Microsoft+Event/288396/157-GQE-382" target="_blank">Register now!</a>
+      <p style="font-size: 12px;">An online webinar scheduled for 12/8/2021, 09:00 am IST by Microsoft Azure. <b>About :</b>Moving to the cloud is a confusing and detailed process—but it doesn’t have to be. When you start planning your cloud journey, it is critical to build a strong cloud adoption plan that spans people, processes, operations, management and governance. Learn how your organization can benefit from the Microsoft Cloud adoption Framework (CAF) as you embark on your cloud adoption journey.</p><span style="font-size: 14px;">3.</span><a style="font-size: 14px;" href="https://cloud.withgoogle.com/next/?utm_source=cgc-site&amp;utm_medium=et&amp;_ga=2.161933116.1646486989.1628613673-1547767635.1627911960" target="_blank"><b>Google Cloud Next ’21</b></a><a class="button" href="https://cloud.withgoogle.com/next/?utm_source=cgc-site&utm_medium=et&_ga=2.161933116.1646486989.1628613673-1547767635.1627911960" target="_blank">Register now!</a>
       <p style="font-size: 12px;">An online event scheduled for Oct. 12-14, 2021 by Google.<b>About :</b>Join us for Google Cloud Next ’21. Connect with experts, get inspired, and expand your knowledge. Learn how the most successful companies have transformed their businesses with Google Cloud.</p> 
      </div> 
     </div> 
@@ -63,20 +112,22 @@
      <div class="card"> 
       <h3 style="font-size: 25px; color:rgb(117, 59, 235);"><b>Miscellaneous</b></h3> 
 <span style="font-size: 14px;">1.</span>
-<a style="font-size: 14px;" href=https://us02web.zoom.us/webinar/register/WN_d2A-IYGLQdG1ShH8zuokZw target='_blank'><b>Using Objectives and Key Results (OKRs) in Scrum</b></a> 
+<a style="font-size: 14px;" href=https://us02web.zoom.us/webinar/register/WN_d2A-IYGLQdG1ShH8zuokZw target='_blank'><b>Using Objectives and Key Results (OKRs) in Scrum</b></a><a class="button" href="https://us02web.zoom.us/webinar/register/WN_d2A-IYGLQdG1ShH8zuokZw" target="_blank">Register now!</a>
 <p style="font-size: 12px;">An online webinar scheduled for Wednesday September 1, 2021 12:00 PM EDT (16:00 UTC) by Scrum.org. <b>About :</b>Objectives and Key Results (OKRs) act as goal-setting framework for defining and tracking objectives and their outcomes. OKRs are often misunderstood and are a powerful practice to create razor sharp organisational focus. Isn’t Scrum about goals and focus as well? There is the Vision, the Product Goal, the Sprint Goal as well as the Sprint Review.</p>
 <span style="font-size: 14px;">2.</span>
-<a style="font-size: 14px;" href=https://pages.cprime.com/DatatoPivotEnterpriseVisibilityIntegrationToolingMissionCriticalTooling.html target='_blank'><b>The Data to Pivot: Enterprise Visibility and Integration of Your Mission Critical Tooling</b></a> 
+<a style="font-size: 14px;" href=https://pages.cprime.com/DatatoPivotEnterpriseVisibilityIntegrationToolingMissionCriticalTooling.html target='_blank'><b>The Data to Pivot: Enterprise Visibility and Integration of Your Mission Critical Tooling</b></a><a class="button" href="https://pages.cprime.com/DatatoPivotEnterpriseVisibilityIntegrationToolingMissionCriticalTooling.html" target="_blank">Register now!</a>
 <p style="font-size: 12px;">An online webinar scheduled for August 11, 2021 - 2:00 PM ET by cprime. <b>About :</b>The distributed world of business created by the pandemic changed the way we use and capture data. Increasingly, enterprise visibility and roll up reporting is the core of our ability to pivot and keep up with an unrivaled pace of change. Join us for an informal discussion with Cprime enterprise solution experts, CJ Henry and Michael Sedovic, as they talk through their past experience at a Fortune 500 company in achieving data visibility for better strategic decisions with connected tooling architecture and roll up data.</p>
 <span style="font-size: 14px;">3.</span>
-<a style="font-size: 14px;" href=https://pages.cprime.com/common-misconceptions-of-tool-integrations.html target='_blank'><b>Common Misconceptions of Integration</b></a> 
+<a style="font-size: 14px;" href=https://pages.cprime.com/common-misconceptions-of-tool-integrations.html target='_blank'><b>Common Misconceptions of Integration</b></a><a class="button" href="https://pages.cprime.com/common-misconceptions-of-tool-integrations.html" target="_blank">Register now!</a>
 <p style="font-size: 12px;">An online event scheduled for September 15, 2021 | 10:00 AM PT / 1:00 PM ET by cprime.<b>About :</b>If the average developer alone uses an average of 14 different software platforms every single day, how many are in use throughout your entire organization? Teams that work in independent and uncoordinated workflows across people, process, and products, result in poorly defined roles, disconnected collaboration and poor visibility.</p>
  
      </div> 
     </div> 
    </div> 
    <div style="padding-left:10px"> 
-   <h3 style="color:rgb(7,75,173);"><b>Looking for more Webinars ? Visit below useful links :</b></h3>
+    <div class="Roundcornersbottom">
+<h3><b>Looking for more Webinars ? Visit below useful links :</b></h3>
+ </div>
    <div class="BlockDisplay">
    <div>
    <span>1.<b>edureka! :</b></span>
